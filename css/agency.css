@@ -570,8 +570,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member img {
-  width: 225px;
-  height: 225px;
+  width: 215px;
+  height: 215px;
   border: 7px solid #fff;
 }
 
@@ -683,4 +683,29 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #4cb6bb;
+}
+
+.tint {
+/*  position: relative;
+  float: left;
+  cursor: pointer;*/
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(53,163,176, 0.2);
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+}
+
+.tint:hover:before {
+  background: none;
 }
