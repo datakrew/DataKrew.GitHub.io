@@ -685,7 +685,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #4cb6bb;
 }
 
-.tint {
+/*.tint {
   position: relative;
   float: left;
   cursor: pointer;
@@ -693,8 +693,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .tint:before {
   content: "";
-/*  display: block;
-  position: absolute;*/
+  display: block;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -708,4 +708,4 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .tint:hover:before {
   background: none;
-}
+}*/
